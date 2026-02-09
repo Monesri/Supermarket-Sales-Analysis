@@ -36,7 +36,20 @@ The dataset is stored in a single table: supermarket_sales.
 - Average customer ratings by branch
 
 ## 📁 Project Structure
-Supermarket-Sales-Analysis/ │ ├── supermarket_sales.csv ├── sql/ │   ├── 01_create_tables.sql │   ├── 02_load_data.sql │   ├── 03_analysis_queries.sql │ └── README.md
+Supermarket-Sales-Analysis/
+│
+├── data/
+│   └── supermarket_sales.csv
+│
+├── sql/
+│   ├── 01_create_tables.sql
+│   ├── 02_load_data.sql
+│   ├── 03_analysis_queries.sql
+│
+├── report/
+│   └── project_report.md
+│
+└── README.md
 ## ✅ Key Learnings
 - Importing and loading CSV data into SQL databases
 - Designing SQL tables for structured data
